@@ -1,0 +1,12 @@
+{
+    "name": "muxx/sms-gateway",
+    "description": "The php clients for the SMS providers",
+    "require": {
+        "guzzlehttp/guzzle": "~5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "SmsGateway": "src/"
+        }
+    }
+}
