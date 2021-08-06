@@ -28,7 +28,7 @@ class DevinoTelecomProvider implements ProviderInterface
      * Отправляем сообщение
      *
      * @param string $message
-     * @param array $recipient
+     * @param string $recipient
      * @param string $sender (default: null)
      *
      * @return bool
